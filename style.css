@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: DAEMADSansFill-Bold;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: 30px;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+  animation: fadetext 10s infinite alternate;
+}
+
+#left{
+  width: calc(25vw - 30px);
+  height: calc(100% - 20px);
+  background-color: #000;
+  animation: fade 10s infinite alternate;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#center{
+  width: calc(50vw - 20px);
+  height: calc(100% - 20px);
+  background-color: #fff;
+  float: left;
+  padding: 10px;
+
+}
+
+#right{
+  width: calc(25vw - 30px);
+  height: calc(100% - 20px);
+  background-color: #000;
+  animation: fade 10s infinite alternate;
+  float: left;
+  text-align: right;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.container{
+  width: 100%;
+  height: calc(100% - 88px);
+  margin-bottom: 10px;
+  padding: 10px;
+  overflow: scroll;
+}
+
+audio {
+  width: 100%;
+}
+
+
+@font-face {
+  font-family: DAEMADSansFill-Bold;
+  src: url(Font/DAEMADSansFill-Bold.otf);
+}
+
+/* ----------------------- BACKGROUND COLOR ----------------------- */
+
+@keyframes fade {
+  0% {
+    background-color: #000;
+  }
+
+  100% {
+    background-color: #6100FF;
+  }
+}
+
+@keyframes fadetext {
+  0% {
+    color: #000;
+  }
+
+  100% {
+    color: #6100FF;
+  }
+}
