@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: DAEMADSansFill-Bold;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: 72px;
+  line-height: 74px;
+}
+
+h2 {
+  margin: 0;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+
+img {
+  height:72px;
+  margin-top: calc(100vh - 250px);
+}
+
+#left{
+  width: calc(50vw - 35px);
+  height: calc(100% - 20px);
+  background-color: #000;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#center{
+  width: 10px;
+  height: 100%;
+  background-color: #fff;
+  float: left;
+
+}
+
+#right{
+  width: calc(50vw - 35px);
+  height: calc(100% - 20px);
+  background-color: #000;
+  float: left;
+  text-align: right;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+
+@font-face {
+  font-family: DAEMADSansFill-Bold;
+  src: url(Font/DAEMADSansFill-Bold.otf);
+}
+
+/* ---------------------------- MOBILE ---------------------------- */
+@media only screen and (max-width:750px) {
+
+  /* For mobile phones: */
+  h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  img {
+    height:60px;
+    margin-top: calc(100vh - 175px);
+  }
+}
