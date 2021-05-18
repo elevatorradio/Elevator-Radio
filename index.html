@@ -1,29 +1,58 @@
 <!doctype html>
+<html lang="en">
 <html>
 
 <head>
-  <title>Elevator Radio</title>
-  <link href="style-temporary.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Elevator Radio</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js" defer></script>
 </head>
 
 <body>
 
-  <div id="left">
-<h1>ELEVATOR <br>
-  RADIO</h1>
-  <img src="DAE_logo_white.png">
-</div>
+    <div class=wrapper>
 
-<div id="center">
-</div>
+        <div id="mobile-indicator"></div>
+        <!--sliding doors  -->
+        <div id=doors>
 
-<div id="right">
-<h2>Thu 20.05.2021<br>
-  16:00–20:00 CET
-</h2>
-</div>
+            <div id="left-door" class=door>
+                <h1 id=ld-top class=title>ELEVATOR RADIO
+                </h1>
+                <img src="DAE_logo_white.png">
+            </div>
 
+
+            <div id="right-door" class=door>
+                <h2 id=rd-top class=title>MENU
+                </h2>
+            </div>
+
+            <!-- behind the doors -->
+            <div id="center">
+                <div class="container">
+                    <div id=phone>
+                        <h1 id=phone-top>ELEVATOR RADIO MENU
+                        </h1>
+
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+
+                    </p>
+                </div>
+                <audio controls>
+            <source src="https://radio.goodtimesbadtimes.club/radio/8040/radio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
