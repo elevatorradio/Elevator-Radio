@@ -30,6 +30,11 @@ p {
     font-size: 20px;
 }
 
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 .wrapper {
     width: 100vw;
     /* Ensures the component is the full screen width */
@@ -98,7 +103,8 @@ p {
 audio {
     width: 90%;
     position: sticky;
-    bottom: 10px;
+    padding: 10px;
+    bottom: 0;
 }
 
 img {
@@ -152,7 +158,7 @@ img {
     #phone {
         display: inline-block;
     }
-    .title {
+    /* .title {
         display: none;
-    }
+    } */
 }
