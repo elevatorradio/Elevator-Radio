@@ -53,7 +53,7 @@ function adaptsize() {
         if ($('#mobile-indicator').css('float') == "left") {
             $("#left-door").css("width", "25%")
             $("#right-door").css("width", "25%");
-            x = document.querySelectorAll(".title");
+            x = document.querySelectorAll(".title", ".logo");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "";
             }
