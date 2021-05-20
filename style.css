@@ -13,7 +13,9 @@ h1 {
     color: #fff;
     mix-blend-mode: difference;
     font-size: 30px;
+    line-height: 32px;
     padding-right: 10px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -22,7 +24,9 @@ h2 {
     color: #fff;
     mix-blend-mode: difference;
     font-size: 30px;
+    line-height: 32px;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 p {
@@ -67,13 +71,13 @@ a {
 #left-door {
     float: left;
     border-right: 10px solid white;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #right-door {
     text-align: right;
     border-left: 10px solid white;
-    padding-right: 10px;
+    padding-right: 20px;
     position: fixed;
     top: 0;
     right: 0;
@@ -92,10 +96,11 @@ a {
 }
 
 .container {
-    height: 90vh;
+    height: 99vh;
+    width: 90%;
     display: inline-block;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     overflow: auto;
 }
 
@@ -103,7 +108,6 @@ audio {
    width: 90%;
    padding-right: 40px;
    padding-left: 40px;
-   position: sticky;
    padding: 10px;
    bottom: 0;
 }
@@ -112,7 +116,8 @@ img {
     height: 72px;
     display: flex;
     position: fixed;
-    bottom: 10px;
+    left: 20px;
+    bottom: 20px;
 }
 
 #mobile-indicator {
@@ -144,12 +149,12 @@ img {
     h1 {
         font-size: 30px;
         mix-blend-mode: difference;
-        line-height: 42px;
+        line-height: 32px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 20px;
         mix-blend-mode: difference;
-        line-height: 42px;
+        line-height: 22px;
     }
     img {
         height: 40px;
@@ -162,6 +167,11 @@ img {
     }
     #phone {
         display: inline-block;
+    }
+
+    .container {
+      padding-right: 20px;
+      padding-left: 20px;
     }
     /* .title {
         display: none;
