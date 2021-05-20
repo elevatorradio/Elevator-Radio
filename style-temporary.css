@@ -70,26 +70,17 @@ img {
 
   /* For mobile phones: */
   h1 {
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 40px;
+    line-height: 42px;
   }
 
   h2 {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 22px;
   }
 
   img {
-    height:40px;
-    margin-top: calc(100vh - 124px);
-  }
-
-  #left{
-    width: calc(50vw - 25px);
-    padding-left: 10px;
-  }
-  #right{
-    width: calc(50vw - 25px);
-    padding-right: 10px;
+    height:60px;
+    margin-top: calc(100vh - 175px);
   }
 }
