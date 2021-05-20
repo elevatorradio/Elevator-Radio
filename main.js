@@ -27,7 +27,7 @@ $(document).ready(function() {
             // $(".logo").css("display", "flex")
             document.getElementById("rd-top").innerHTML = "Thu 20.05.2021<br> 16:00–20:00 CEST";
             //  document.getElementById("phone-top").innerHTML = 'ELEVATOR RADIO - Thu 20.05.2021<br> 16:00–20:00 CEST <img  src="DAE_logo_white.png">;'
-            document.getElementById("phone").innerHTML = ' <h1 id=phone-top>ELEVATOR RADIO -  - Thu 20.05.2021<br> 16:00–20:00 CEST </h1><img class=blacklogo src="DAE_logo_white.png">'
+            document.getElementById("phone").innerHTML = ' <h1 id=phone-top>ELEVATOR RADIO - Thu 20.05.2021<br> 16:00–20:00 CEST </h1>'
         }
 
 
