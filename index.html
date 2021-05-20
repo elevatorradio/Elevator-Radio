@@ -1,29 +1,64 @@
 <!doctype html>
+<html lang="en">
 <html>
 
 <head>
-  <title>Elevator Radio</title>
-  <link href="style-temporary.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Elevator Radio</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js" defer></script>
 </head>
 
 <body>
 
-  <div id="left">
-<h1>ELEVATOR <br>
-  RADIO</h1>
-  <img src="DAE_logo_white.png">
-</div>
+    <div class=wrapper>
 
-<div id="center">
-</div>
+        <div id="mobile-indicator"></div>
+        <!--sliding doors  -->
+        <div id=doors>
 
-<div id="right">
-<h2>Thu 20.05.2021<br>
-  16:00–20:00 CET
-</h2>
-</div>
+            <div id="left-door" class=door>
+                <h1 id=ld-top class=title>ELEVATOR RADIO
+                </h1>
+                <img class=logo src="DAE_logo_white.png">
+            </div>
 
+
+            <div id="right-door" class=door>
+                <h2 id=rd-top class=title>MENU
+                </h2>
+            </div>
+
+            <!-- behind the doors -->
+            <div id="center">
+                <div class="container">
+                    <div id=phone>
+                        <h1 id=phone-top>ELEVATOR RADIO - MENU
+                        </h1>
+                    </div>
+
+                    <p id=about> <br> Elevator Radio is a radio network run by students from Design Academy Eindhoven. Established as an umbrella network to bring together existing and new radio initiatives, Elevator Radio acts as an experimental platform for voices
+                        from the student community. A platform for students to collaborate and play with ideas in the medium of live broadcasting and audio. <br><br> Elevator radio is supported by <a href="https://designacademy.nl/"> Design Academy Eindhoven</a>.
+                    </p>
+
+                    <p id=line-up>
+                        <br>
+                        <h1>LINE UP</h1> <br><br> 1600-1630; Student <br> 1630-1700; Student <br> 1700-1730; Student <br> 1730-1800; Student <br> 1800-1830; Student <br> 1830-1900; Student <br> 1900-1930; Student <br> 1930-2000; Student.
+                        <br>
+
+
+                    </p>
+                </div>
+                <audio controls>
+            <source src="https://radio.goodtimesbadtimes.club/radio/8040/radio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
