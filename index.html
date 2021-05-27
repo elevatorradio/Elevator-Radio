@@ -22,13 +22,15 @@
       <div id="left-door" class=door>
         <h1 id=ld-top class=title>ELEVATOR RADIO
         </h1>
-<img class=logo src="DAE_logo_white.png">
+        <img class=logo src="DAE_logo_white.png">
       </div>
 
 
       <div id="right-door" class=door>
-        <h2 id=rd-top class=title>Thu 20.05.2021<br> 16:00–20:00 CEST
+        <h2 id=rd-top class=title>
+          <button>←|→</button>
         </h2>
+
       </div>
 
       <!-- behind the doors -->
@@ -37,44 +39,96 @@
           <div id=phone>
             <h1 id=phone-top>ELEVATOR RADIO
             </h1>
-
           </div>
-
-          <p id=about>Elevator Radio is a radio network run by students from Design Academy Eindhoven. Established as an umbrella network to bring together existing and new radio initiatives, Elevator Radio acts as an experimental platform for voices
-            from the student community. A platform for students to collaborate and play with ideas in the medium of live broadcasting and audio. <br><br> Elevator radio is supported by <a href="https://designacademy.nl/"> Design Academy
-              Eindhoven</a>.
-          </p>
-          <br><br>
-          <p id=line-up>
-            <h1>20th May: First Broadcast!</h1>
-            <br><br>
-            Tune in here:
-            <audio controls>
-              <source src="https://s3.radio.co/s5b4b52bfe/listen" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio><br><br> 16:00-17:00 INTRO HOUR w/ Ingrid, Nick and Louisa<br><br>
-            During Intro Hour we will be giving a special introduction to Elevator Radio - how we came about,
-            our visual identity and plans for the future. We will squeeze in some elevator ups and downs, unusual weather forecasts, and there will also be an opportunity for you to join us live on air to share any radio show ideas you may have.
-            <br><br>
-            17:00-18:00 AROUND DAE w/ Jess<br><br>
-            During this second hour we will take you on a journey around the world of DAE! From the food at the ZBar to our everyday language that makes us unique. You are also invited to join us on air again to share any radio show ideas you have.
-            Featuring special guests: Mika from the ZBar and Matilde from the Critical Inquiry Lab.
-            <br><br>
-            18:00-19:00 DIALOGUE HOUR w/ Jasper and Val<br><br>
-            Dialogue Hour will bring you a fine selection of small talk. From, what’s occurring on Student Affairs, to experimental tracks from the DAE community, to Discomfort Dialogues.We will also talk about plans for the Roaming Radio, a portable
-            nomad trolley that will be bringing Elevator Radio to every remote corner of DAE!
-            <br><br>
-            19:00-20:00 FLAM-SCHLANGE w/ Felix, Nick and Louisa <br><br>
-            Maybe you've already heard of the Sunday Breakfast Club w/Polarwolf or the ididididid DJs. Well, Louisa, Nick and Felix have now joined forces to form the DJ trio ‘Flam-Schlange’!
-            <br><br><br>
-
-
-          </p>
+          <div id="ABOUT">
+            <div class="section">
+              <h3>ABOUT</h3>
+              <p id=about>Elevator Radio is a radio network run by students from Design Academy Eindhoven. Established as an umbrella network to bring together existing and new radio initiatives, Elevator Radio acts as an experimental platform for
+                voices from the student community. A platform for students to collaborate and play with ideas in the medium of live broadcasting and audio. <br><br> Elevator radio is supported by <a href="https://designacademy.nl/"> Design Academy
+                  Eindhoven</a>.
+              </p>
+            </div>
+          </div>
+          <div id="TUNEIN">
+            <div class="section">
+              <h3 id=2>TUNE IN</h3>
+              <audio controls>
+                <source src="https://s3.radio.co/s5b4b52bfe/listen" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+          <div id="UPCOMING">
+            <div class="section">
+              <h3 id=3>UPCOMING BROADCAST</h3>
+              <button type="button" class="upcomingshow" style="background-color:#47D278;">THU 27.05.2021 — 16:00–18:00 CEST</button>
+              <br><br>
+              16:00-17:00 MAKING MUSIC w/ Lewis<br><br>
+              Talking about making music, live gigs and our dream lineups
+              <br><br>
+              17:00-18:00 TALKING LECTURE w/ Val and Jess<br><br>
+              Talking Lectures that changed our lives, spacey tunes and reading your faxes! (No seriously, Fax us)
+              <br><br>
+            </div>
+          </div>
+          <div id="ARCHIVE">
+            <div class="section">
+              <h3 id=3>ARCHIVE</h3>
+              <button type="button" class="collapsible" style="background-color:#7E1FF8;">THU 20.05.2021 — 16:00–20:00 CEST</button>
+              <div class="content">
+                16:00-17:00 INTRO HOUR w/ Ingrid, Nick and Louisa<br><br>
+                During Intro Hour we will be giving a special introduction to Elevator Radio - how we came about,
+                our visual identity and plans for the future. We will squeeze in some elevator ups and downs, unusual weather forecasts, and there will also be an opportunity for you to join us live on air to share any radio show ideas you may have.
+                <br><br>
+                17:00-18:00 AROUND DAE w/ Jess<br><br>
+                During this second hour we will take you on a journey around the world of DAE! From the food at the ZBar to our everyday language that makes us unique. You are also invited to join us on air again to share any radio show ideas you
+                have.
+                Featuring special guests: Mika from the ZBar and Matilde from the Critical Inquiry Lab.
+                <br><br>
+                18:00-19:00 DIALOGUE HOUR w/ Jasper and Val<br><br>
+                Dialogue Hour will bring you a fine selection of small talk. From, what’s occurring on Student Affairs, to experimental tracks from the DAE community, to Discomfort Dialogues.We will also talk about plans for the Roaming Radio, a
+                portable
+                nomad trolley that will be bringing Elevator Radio to every remote corner of DAE!
+                <br><br>
+                19:00-20:00 FLAM-SCHLANGE w/ Felix, Nick and Louisa <br><br>
+                Maybe you've already heard of the Sunday Breakfast Club w/Polarwolf or the ididididid DJs. Well, Louisa, Nick and Felix have now joined forces to form the DJ trio ‘Flam-Schlange’!<br><br>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1052922280&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+              </div>
+            </div>
+          </div>
+          <div id="CONTACT">
+            <div class="section">
+              <h3 id=4>CONTACT</h3>
+              <p id=contact>Follow us on instagram <a href="https://www.instagram.com/elevator.radio/">@elevator.radio</a> or like our <a href="https://www.facebook.com/Elevatorradio/">facebook page</a> to stay up-to-date on upcoming shows and other
+                news.<br><br>
+                If you want to join the radio team, broadcast a show or simply get in touch, shoot us an <a href="mailto: elevatorradio@designacademy.nl">email</a>!
+              </p>
+            </div>
+          </div>
+          (This website is continuously under construction)<br><br>
         </div>
       </div>
-    </div>
 
-  </div>
+    </div>
 </body>
+<script>
+  /* ---------------------------- COLLAPSIBLE ---------------------------- */
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+
+    });
+  }
+</script>
 
 </html>
