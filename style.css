@@ -185,6 +185,7 @@ audio {
   font-size: 30px;
   line-height: 32px;
   padding: 10px;
+  cursor: auto;
 }
 
 .collapsible {
