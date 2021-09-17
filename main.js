@@ -25,7 +25,7 @@ $(document).ready(function() {
 
         if (opendoor === true) {
             // $(".logo").css("display", "flex")
-            document.getElementById("rd-top").innerHTML = "● Thu 24.06.2021<br> 16:00–19:00 CEST";
+            document.getElementById("rd-top").innerHTML = "● TUE 21.09 – FRI 24.09<br>INTRO WORKSHOPS!";
             //  document.getElementById("phone-top").innerHTML = 'ELEVATOR RADIO - Thu 20.05.2021<br> 16:00–20:00 CEST <img  src="DAE_logo_white.png">;'
             document.getElementById("phone").innerHTML = ' <h1 id=phone-top>ELEVATOR RADIO </h1><br><br>'
         }
