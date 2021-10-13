@@ -217,6 +217,11 @@ audio {
   overflow: hidden;
 }
 
+hr {
+  border-top: 0px;
+  border-bottom: 1px dashed #000;
+}
+
 
 /* ---------------------------- MOBILE ---------------------------- */
 
